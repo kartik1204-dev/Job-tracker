@@ -1,0 +1,12 @@
+package com.tracker.job_tracker_backend;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class JobTrackerBackendApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(JobTrackerBackendApplication.class, args);
+	}
+}

@@ -31,7 +31,7 @@ function App() {
   const [error, setError] = useState<string | null>(null);
   const [editingId, setEditingId] = useState<string | null>(null);
 
-  const apiBase = 'http://localhost:8080/api/jobs';
+  const apiBase = 'https://job-tracker-08ob.onrender.com/api/jobs';
 
   const loadJobs = async () => {
     try {
